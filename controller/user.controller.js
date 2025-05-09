@@ -100,6 +100,6 @@ export const getuseractivity=async(req,res)=>{
 
         return res.status(200).json(data.Activity)
     } catch (error) {
-        
+        console.log("error in getuseractivity",error)
     }
 }

@@ -194,6 +194,30 @@ This endpoint retrieves all activities associated with a specific user. It uses 
 }
 
 
+```json
+{
+[
+  {
+    "_id": "ACTIVITY_ID_1",
+    "Title": "Hiking",
+    "Description": "Mountain hiking event",
+    "Location": "Shimla",
+    "createdAt": "2024-05-08T08:30:00.000Z",
+    "updatedAt": "2024-05-08T08:30:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "ACTIVITY_ID_2",
+    "Title": "Coding Bootcamp",
+    "Description": "Full-stack development training",
+    "Location": "Delhi",
+    "createdAt": "2024-05-01T11:00:00.000Z",
+    "updatedAt": "2024-05-01T11:00:00.000Z",
+    "__v": 0
+  }
+]
+}
+
 
 
 
